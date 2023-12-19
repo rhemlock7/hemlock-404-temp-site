@@ -1,0 +1,86 @@
+/*  ------ Base Styling -------  */
+* {
+    font-family: neue-haas-unica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 4.5em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+
+button {
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 24px;
+    padding: 8px 35px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 25px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    transform: scale(1.025);
+    box-shadow: 0px 10px 35px -14px rgba(40, 40, 40, 0.477);
+}
+
+section {
+    margin-top: 20%;
+}
+
+/* Styles by ID */
+#ryan-headshot {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#h1-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 3.5em;
+        line-height: 1em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    section {
+        margin-top: 20%;
+    }
+
+    #ryan-headshot {
+        width: 200px;
+        margin-bottom: 25px;
+    }
+    
+    #h1-container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
